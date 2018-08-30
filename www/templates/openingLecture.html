@@ -1,0 +1,24 @@
+<ion-view view-title="home page">
+  <ion-content scroll="false">
+    <section class="home">
+
+
+      <h1 class="title">כנס know it</h1>
+      <textarea type="text" placeholder="הכנס טקסט !!!" dir="rtl" ng-model="textshow" ng-init="textshow" class="inputStyle"></textarea>
+      <!-- <textarea type="text" placeholder="הכנס טקסט !!!" dir="rtl" ng-model="text" ng-init= class="inputStyle"></textarea> -->
+      <button ng-click="saveTextLocal(textshow)" class="submitButton">לחץ כאן</button>
+      <h1 class="text">התוכן שהוקלד</h1>
+      <button ng-click="delete()">לחץ כדי למחוק</button>
+
+      <!-- <h3 class="text">{{textshow}}</h3> -->
+    </section>
+
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+  </ion-content>
+</ion-view>

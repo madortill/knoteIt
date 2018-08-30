@@ -1,1 +1,69 @@
 /* Empty. Add your own CSS if you like */
+
+textarea {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  line-height: 1.3em;
+  font-size: 2em;
+  text-align: center;
+  height: 40vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.submitButton {
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.logo {
+  height: 7.5vh;
+}
+
+.home--top-logos {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2vh;
+  flex-direction: row-reverse;
+  /* align-self: flex-start; */
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#knowItLogo {
+  margin-top: 4vh;
+  height: 19vh;
+}
+
+.home--text-Style {
+  font-size: 3vh;
+  text-align: center;
+  color: #F68D40;
+}
+
+.home--plenary-lecture {
+  border: solid;
+  border-color: #2CBBD8;
+  width: 63%;
+  display: inherit;
+  margin: auto;
+  direction: rtl;
+}
+
+.home--midle-lecture {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-midleLecture-text {
+  font-size: 5vh;
+  text-align: center;
+}
