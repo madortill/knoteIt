@@ -6,20 +6,6 @@ HomeController.$inject = ["$scope", "$state", "DataService"];
 
 function HomeController($scope, $state, DataService) {
   //   console.log("fgfg");
-  $scope.text;
-  var currentText;
-  $scope.textshow = localStorage.getItem("thetext");
-  $scope.saveTextLocal = function (text) {
-    currentText = text;
-    console.log($scope.text);
-    localStorage.setItem("thetext", currentText);
+  console.log(localStorage.getItem("lectureTitle"));
 
-    $scope.textshow = localStorage.getItem("thetext");
-  }
-  $scope.delete = function () {
-    localStorage.removeItem("thetext");
-
-  }
-
-  console.log(localStorage.getItem("thetext"));
 }

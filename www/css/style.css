@@ -1,26 +1,55 @@
 /* Empty. Add your own CSS if you like */
 
 textarea {
-  width: 80%;
+  width: 90%;
   display: block;
   margin: 0 auto;
   line-height: 1.3em;
-  font-size: 2em;
-  text-align: center;
+  font-size: 3.5vh;
+  /* text-align: center; */
   height: 40vh;
 }
 
-.title {
+.lecture--Title {
   text-align: center;
 }
 
-.submitButton {
-  display: block;
+.lecture--pic {
+  position: absolute;
+  top: 2.2vh;
   margin: 0 auto;
+  height: 10vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lecture--submitButton {
+  position: absolute;
+  color: white;
+  background: #2CBBD8;
+  border: none;
+  top: 2vh;
+  height: 6vh;
+  width: 11vh;
+  right: 2vh;
+  font-size: 3vh;
 }
 
 .text {
   text-align: center;
+}
+
+.lecture--select {
+  margin: 0 auto;
+  margin-top: 10vh;
+  display: flex;
+  width: 71%;
+  height: 5vh;
+  font-size: 2.5vh;
+  border-color: #2CBBD8;
+  direction: rtl;
 }
 
 .logo {
@@ -51,19 +80,47 @@ textarea {
 
 .home--plenary-lecture {
   border: solid;
+  height: 9vh;
   border-color: #2CBBD8;
-  width: 63%;
+  width: 80%;
   display: inherit;
   margin: auto;
+  vertical-align: middle;
+  line-height: 6vh;
   direction: rtl;
+  margin-top: 1vh;
+  font-size: 4.5vh;
+  text-align: center;
 }
 
 .home--midle-lecture {
-  display: flex;
   flex-direction: row;
+  display: flex;
+  width: 81.3%;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* display: flex; */
 }
 
 .home-midleLecture-text {
-  font-size: 5vh;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  line-height: 3.5vh;
+  font-size: 3.5vh;
+}
+
+.home--lectures {
+  margin-top: 4vh;
+}
+
+.home--bottom {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
 }
