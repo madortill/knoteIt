@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "cordova-android": "6.3.0",
+    "cordova-ios": "4.5.5",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
     "cordova-plugin-ionic-webview": "^2.1.0",
     "cordova-plugin-splashscreen": "^5.0.2",
-    "cordova-plugin-whitelist": "^1.3.3"
+    "cordova-plugin-whitelist": "^1.3.3",
+    "npm-font-open-sans": "^1.1.0"
   },
   "cordova": {
     "plugins": {
@@ -26,7 +28,8 @@
       "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

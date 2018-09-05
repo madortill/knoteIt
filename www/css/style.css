@@ -1,4 +1,11 @@
-/* Empty. Add your own CSS if you like */
+@font-face {
+  font-family: "Open Sans Hebrew";
+  src: url("../css/OpenSansHebrew-Regular.ttf")
+}
+
+* {
+  font-family: "Open Sans Hebrew";
+}
 
 textarea {
   width: 90%;
@@ -8,10 +15,12 @@ textarea {
   font-size: 3.5vh;
   /* text-align: center; */
   height: 40vh;
+  font-family: 'Open Sans Hebrew', serif;
 }
 
 .lecture--Title {
   text-align: center;
+  font-family: 'Open Sans Hebrew', serif;
 }
 
 .lecture--pic {
@@ -27,6 +36,7 @@ textarea {
 
 .lecture--submitButton {
   position: absolute;
+  font-family: 'Open Sans Hebrew', serif;
   color: white;
   background: #2CBBD8;
   border: none;
@@ -45,8 +55,9 @@ textarea {
   margin: 0 auto;
   margin-top: 10vh;
   display: flex;
-  width: 71%;
-  height: 5vh;
+  width: 80%;
+  font-family: 'Open Sans Hebrew', serif;
+  height: 6vh;
   font-size: 2.5vh;
   border-color: #2CBBD8;
   direction: rtl;
@@ -75,18 +86,20 @@ textarea {
 .home--text-Style {
   font-size: 3vh;
   text-align: center;
+  font-family: 'Open Sans Hebrew', serif;
   color: #F68D40;
 }
 
 .home--plenary-lecture {
   border: solid;
   height: 9vh;
+  font-family: 'Open Sans Hebrew', serif;
   border-color: #2CBBD8;
   width: 80%;
   display: inherit;
   margin: auto;
   vertical-align: middle;
-  line-height: 6vh;
+  line-height: 7vh;
   direction: rtl;
   margin-top: 1vh;
   font-size: 4.5vh;
@@ -104,6 +117,7 @@ textarea {
 
 .home-midleLecture-text {
   display: flex;
+  font-family: 'Open Sans Hebrew', serif;
   align-items: center;
   justify-content: center;
   width: 48%;
@@ -123,4 +137,21 @@ textarea {
   justify-content: space-between;
   width: 100%;
   height: 20vh;
+}
+
+.mainLecture--title {
+  text-align: center;
+  width: 90%;
+  font-family: 'Open Sans Hebrew', serif;
+  font-size: 4vh;
+  margin-top: 11vh;
+  line-height: 7vh;
+  border-bottom: solid #2CBBD8;
+  border-top: solid #2CBBD8;
+  margin: 0 auto;
+  display: grid;
+}
+
+.home--mainLecture {
+  margin-top: 10vh;
 }

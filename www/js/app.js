@@ -54,6 +54,41 @@ angular.module('starter', ['ionic'])
         controller: "openingLectureController"
       })
 
+
+      .state("summaryLecture", {
+        url: "/summaryLecture",
+        templateUrl: "templates/summaryLecture.html",
+        controller: "summaryLectureController"
+      })
+
+
+      .state("juniorALecture", {
+        url: "/juniorALecture",
+        templateUrl: "templates/juniorALecture.html",
+        controller: "juniorALectureController"
+      })
+
+
+
+      .state("juniorBLecture", {
+        url: "/juniorBLecture",
+        templateUrl: "templates/juniorBLecture.html",
+        controller: "juniorBLectureController"
+      })
+
+      .state("seniorALecture", {
+        url: "/seniorALecture",
+        templateUrl: "templates/seniorALecture.html",
+        controller: "seniorALectureController"
+      })
+
+
+
+      .state("seniorBLecture", {
+        url: "/seniorBLecture",
+        templateUrl: "templates/seniorBLecture.html",
+        controller: "seniorBLectureController"
+      })
       // home page
       .state("home", {
         url: "/home",

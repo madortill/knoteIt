@@ -1,0 +1,37 @@
+<ion-view view-title="lecture summary page">
+  <ion-content scroll="false">
+    <section class="home">
+
+      <select name="lectures" class="lecture--select" ng-model="lectureSelect">
+        <!-- <option value="">---Please select---</option> -->
+        <!-- not selected / blank option -->
+
+        <option value="עיצוב ממשק (מדור טי''ל)">עיצוב ממשק (מדור טי"ל)</option>
+        <option value="מציאות מדומה (פרומיקס)">מציאות מדומה (פרומיקס)</option>
+        <option value="הרצאה ממשקי שיחה ולמידה (MindCet)">הרצאה ממשקי שיחה ולמידה (MindCet)</option>
+        <option value="סטופמושיין (PlaySpace)">סטופמושיין (PlaySpace)</option>
+        <option value="משחוק בלמידה (MindLab)">משחוק בלמידה (MindLab)</option>
+        <option value="למידה במובייל (Badarom)">למידה במובייל (Badarom)</option>
+        <option value="למידה חוויתית משולבת משחק (CloseApp)">למידה חוויתית משולבת משחק (CloseApp)</option>
+        <option value="משחק לפיתוח חשיבה רב תחומית (TING)">משחק לפיתוח חשיבה רב תחומית (TING)</option>
+        <option value="Storytelling (מרכז חדשנות אונ' ת''א, גע-דע)">Storytelling (מרכז חדשנות אונ' ת"א, גע-דע)</option>
+        <option value="קופסאות בריחה (מדור טי''ל)">קופסאות בריחה (מדור טי"ל)</option>
+
+      </select>
+      <img src="img/knowItPic.svg" class="lecture--pic">
+
+
+      <!-- <h1 class="lecture--Title">כנס know it</h1> -->
+      <textarea type="text" placeholder="הקלד את הסיכום שלך כאן...." dir="rtl" ng-model="textshow" ng-init="textshow" class="inputStyle"></textarea>
+      <!-- <textarea type="text" placeholder="הכנס טקסט !!!" dir="rtl" ng-model="text" ng-init= class="inputStyle"></textarea> -->
+      <button ng-click="saveTextLocal(textshow,lectureSelect)" class="lecture--submitButton">שמור</button>
+      <!-- <h1 class="text">התוכן שהוקלד</h1> -->
+      <!-- <button ng-click="delete()">לחץ כדי למחוק</button> -->
+
+      <!-- <h3 class="text">{{textshow}}</h3> -->
+    </section>
+
+
+
+  </ion-content>
+</ion-view>
