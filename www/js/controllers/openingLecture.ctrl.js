@@ -7,13 +7,16 @@ openingLectureController.$inject = ["$scope", "$state", "DataService", "$ionicPl
 function openingLectureController($scope, $state, DataService, $ionicPlatform) {
   //   console.log("fgfg");
   // $scope.text;
-  $ionicPlatform.onHardwareBackButton(function () {
-    $scope.saveTextLocal(text, lectureSelect);
-    // alert('going back now y');
-    // localStorage.setItem("lectureSummary", currentText);
+  // $ionicPlatform.onHardwareBackButton(function () {
+  //   event.preventDefault();
+  //   event.stopPropagation();
+  alert('going back now yall');
+  // $scope.saveTextLocal(text, lectureSelect);
+  // alert('going back now y');
+  // localStorage.setItem("lectureSummary", currentText);
 
-    // $scope.textshow = localStorage.getItem("lectureSummary");
-  });
+  // $scope.textshow = localStorage.getItem("lectureSummary");
+  // });
   // var currentText;
   if (localStorage.getItem("lectureSummary") != null) {
     $scope.textshow = localStorage.getItem("lectureSummary");
